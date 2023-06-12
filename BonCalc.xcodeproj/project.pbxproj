@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDFC753D2A37328B00EA07BB /* BonCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFC753C2A37328B00EA07BB /* BonCalcApp.swift */; };
+		EDFC753F2A37328B00EA07BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFC753E2A37328B00EA07BB /* ContentView.swift */; };
+		EDFC75412A37328C00EA07BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFC75402A37328C00EA07BB /* Assets.xcassets */; };
+		EDFC75452A37328C00EA07BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFC75442A37328C00EA07BB /* Preview Assets.xcassets */; };
+		EDFC754F2A37328D00EA07BB /* BonCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFC754E2A37328D00EA07BB /* BonCalcTests.swift */; };
+		EDFC75592A37328D00EA07BB /* BonCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFC75582A37328D00EA07BB /* BonCalcUITests.swift */; };
+		EDFC755B2A37328D00EA07BB /* BonCalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFC755A2A37328D00EA07BB /* BonCalcUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDFC754B2A37328D00EA07BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDFC75312A37328B00EA07BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFC75382A37328B00EA07BB;
+			remoteInfo = BonCalc;
+		};
+		EDFC75552A37328D00EA07BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDFC75312A37328B00EA07BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFC75382A37328B00EA07BB;
+			remoteInfo = BonCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDFC75392A37328B00EA07BB /* BonCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFC753C2A37328B00EA07BB /* BonCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonCalcApp.swift; sourceTree = "<group>"; };
+		EDFC753E2A37328B00EA07BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDFC75402A37328C00EA07BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDFC75422A37328C00EA07BB /* BonCalc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BonCalc.entitlements; sourceTree = "<group>"; };
+		EDFC75442A37328C00EA07BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDFC754A2A37328D00EA07BB /* BonCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFC754E2A37328D00EA07BB /* BonCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonCalcTests.swift; sourceTree = "<group>"; };
+		EDFC75542A37328D00EA07BB /* BonCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFC75582A37328D00EA07BB /* BonCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonCalcUITests.swift; sourceTree = "<group>"; };
+		EDFC755A2A37328D00EA07BB /* BonCalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonCalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDFC75362A37328B00EA07BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFC75472A37328D00EA07BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFC75512A37328D00EA07BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDFC75302A37328B00EA07BB = {
+			isa = PBXGroup;
+			children = (
+				EDFC753B2A37328B00EA07BB /* BonCalc */,
+				EDFC754D2A37328D00EA07BB /* BonCalcTests */,
+				EDFC75572A37328D00EA07BB /* BonCalcUITests */,
+				EDFC753A2A37328B00EA07BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDFC753A2A37328B00EA07BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDFC75392A37328B00EA07BB /* BonCalc.app */,
+				EDFC754A2A37328D00EA07BB /* BonCalcTests.xctest */,
+				EDFC75542A37328D00EA07BB /* BonCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDFC753B2A37328B00EA07BB /* BonCalc */ = {
+			isa = PBXGroup;
+			children = (
+				EDFC753C2A37328B00EA07BB /* BonCalcApp.swift */,
+				EDFC753E2A37328B00EA07BB /* ContentView.swift */,
+				EDFC75402A37328C00EA07BB /* Assets.xcassets */,
+				EDFC75422A37328C00EA07BB /* BonCalc.entitlements */,
+				EDFC75432A37328C00EA07BB /* Preview Content */,
+			);
+			path = BonCalc;
+			sourceTree = "<group>";
+		};
+		EDFC75432A37328C00EA07BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDFC75442A37328C00EA07BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDFC754D2A37328D00EA07BB /* BonCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDFC754E2A37328D00EA07BB /* BonCalcTests.swift */,
+			);
+			path = BonCalcTests;
+			sourceTree = "<group>";
+		};
+		EDFC75572A37328D00EA07BB /* BonCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDFC75582A37328D00EA07BB /* BonCalcUITests.swift */,
+				EDFC755A2A37328D00EA07BB /* BonCalcUITestsLaunchTests.swift */,
+			);
+			path = BonCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDFC75382A37328B00EA07BB /* BonCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFC755E2A37328D00EA07BB /* Build configuration list for PBXNativeTarget "BonCalc" */;
+			buildPhases = (
+				EDFC75352A37328B00EA07BB /* Sources */,
+				EDFC75362A37328B00EA07BB /* Frameworks */,
+				EDFC75372A37328B00EA07BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonCalc;
+			productName = BonCalc;
+			productReference = EDFC75392A37328B00EA07BB /* BonCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDFC75492A37328D00EA07BB /* BonCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFC75612A37328D00EA07BB /* Build configuration list for PBXNativeTarget "BonCalcTests" */;
+			buildPhases = (
+				EDFC75462A37328D00EA07BB /* Sources */,
+				EDFC75472A37328D00EA07BB /* Frameworks */,
+				EDFC75482A37328D00EA07BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDFC754C2A37328D00EA07BB /* PBXTargetDependency */,
+			);
+			name = BonCalcTests;
+			productName = BonCalcTests;
+			productReference = EDFC754A2A37328D00EA07BB /* BonCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDFC75532A37328D00EA07BB /* BonCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFC75642A37328D00EA07BB /* Build configuration list for PBXNativeTarget "BonCalcUITests" */;
+			buildPhases = (
+				EDFC75502A37328D00EA07BB /* Sources */,
+				EDFC75512A37328D00EA07BB /* Frameworks */,
+				EDFC75522A37328D00EA07BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDFC75562A37328D00EA07BB /* PBXTargetDependency */,
+			);
+			name = BonCalcUITests;
+			productName = BonCalcUITests;
+			productReference = EDFC75542A37328D00EA07BB /* BonCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDFC75312A37328B00EA07BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EDFC75382A37328B00EA07BB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EDFC75492A37328D00EA07BB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EDFC75382A37328B00EA07BB;
+					};
+					EDFC75532A37328D00EA07BB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EDFC75382A37328B00EA07BB;
+					};
+				};
+			};
+			buildConfigurationList = EDFC75342A37328B00EA07BB /* Build configuration list for PBXProject "BonCalc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDFC75302A37328B00EA07BB;
+			productRefGroup = EDFC753A2A37328B00EA07BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDFC75382A37328B00EA07BB /* BonCalc */,
+				EDFC75492A37328D00EA07BB /* BonCalcTests */,
+				EDFC75532A37328D00EA07BB /* BonCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDFC75372A37328B00EA07BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFC75452A37328C00EA07BB /* Preview Assets.xcassets in Resources */,
+				EDFC75412A37328C00EA07BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFC75482A37328D00EA07BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFC75522A37328D00EA07BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDFC75352A37328B00EA07BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFC753F2A37328B00EA07BB /* ContentView.swift in Sources */,
+				EDFC753D2A37328B00EA07BB /* BonCalcApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFC75462A37328D00EA07BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFC754F2A37328D00EA07BB /* BonCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFC75502A37328D00EA07BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFC75592A37328D00EA07BB /* BonCalcUITests.swift in Sources */,
+				EDFC755B2A37328D00EA07BB /* BonCalcUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDFC754C2A37328D00EA07BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDFC75382A37328B00EA07BB /* BonCalc */;
+			targetProxy = EDFC754B2A37328D00EA07BB /* PBXContainerItemProxy */;
+		};
+		EDFC75562A37328D00EA07BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDFC75382A37328B00EA07BB /* BonCalc */;
+			targetProxy = EDFC75552A37328D00EA07BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDFC755C2A37328D00EA07BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDFC755D2A37328D00EA07BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EDFC755F2A37328D00EA07BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BonCalc/BonCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BonCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7TDNU7VPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Didrik.BonCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDFC75602A37328D00EA07BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BonCalc/BonCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BonCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7TDNU7VPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Didrik.BonCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDFC75622A37328D00EA07BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7TDNU7VPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Didrik.BonCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BonCalc";
+			};
+			name = Debug;
+		};
+		EDFC75632A37328D00EA07BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7TDNU7VPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Didrik.BonCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BonCalc";
+			};
+			name = Release;
+		};
+		EDFC75652A37328D00EA07BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7TDNU7VPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Didrik.BonCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BonCalc;
+			};
+			name = Debug;
+		};
+		EDFC75662A37328D00EA07BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7TDNU7VPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Didrik.BonCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BonCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDFC75342A37328B00EA07BB /* Build configuration list for PBXProject "BonCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFC755C2A37328D00EA07BB /* Debug */,
+				EDFC755D2A37328D00EA07BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFC755E2A37328D00EA07BB /* Build configuration list for PBXNativeTarget "BonCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFC755F2A37328D00EA07BB /* Debug */,
+				EDFC75602A37328D00EA07BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFC75612A37328D00EA07BB /* Build configuration list for PBXNativeTarget "BonCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFC75622A37328D00EA07BB /* Debug */,
+				EDFC75632A37328D00EA07BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFC75642A37328D00EA07BB /* Build configuration list for PBXNativeTarget "BonCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFC75652A37328D00EA07BB /* Debug */,
+				EDFC75662A37328D00EA07BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDFC75312A37328B00EA07BB /* Project object */;
+}
